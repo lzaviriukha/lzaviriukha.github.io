@@ -248,3 +248,9 @@ body {
     color: #6c6969;
  }
 
+@media screen and (min-width:250px) {
+    .site-nav__link {
+	padding: 54px 40px;
+}
+
+
