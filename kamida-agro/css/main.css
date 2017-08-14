@@ -1,3 +1,5 @@
+/*ALL*/
+
 * {
 	margin: 0px;
 }
@@ -6,9 +8,14 @@ a:link, a:visited {
   text-decoration:  none;  
 }
 
+/*BODY*/
+
 body {
 	min-width: 1000px;
+	background: url(../img/background.jpg) repeat;
 }
+
+/*HEADER*/
 
 .site-header__wrapper {
 	display: flex;
@@ -55,10 +62,12 @@ body {
     color: white
 }
 
+/*HEADER-NAV*/
+
 .site-nav {
 	width: 100%;
+	padding: 0px 10px;
 	background: #81847d;
-	padding: 10px;
 	text-transform: uppercase;
 }
 
@@ -69,10 +78,79 @@ body {
 }
 
 .site-nav__item {
-	margin: 10px 0px;
+	padding: 20px 10px;
+	border-bottom: 3px solid #81847d;
+}
+
+.site-nav__item:hover {
+	border-bottom: 3px solid #aa0000;
+}
+
+.site-nav__item:hover .site-nav__link {
+	color: #aa0000;
 }
 
 .site-nav__link {
-	margin: 60px;
 	color: white;
+	padding: 50px;
 }
+
+/*MAIN*/
+
+.first-row {
+	display: flex;
+	justify-content: center;
+	background: white;
+	margin: 20px;
+}
+
+.first-row__machines {
+	width: 400px;
+	height: 430px;
+	margin: 10px;
+	background-image: url(../img/machines.jpg);
+	background-size: cover;
+}
+
+.first-row__rent {
+	width: 400px;
+	height: 430px;
+	margin: 10px;
+	background-image: url(../img/rent.jpg);
+	background-size: cover;
+}
+
+.first-row__news {
+	width: 400px;
+	height: 430px;
+	margin: 10px;
+	background: black;
+}
+
+.second-row {
+	display: flex;
+	justify-content: center;
+	background: white;
+	margin: 20px;
+}
+
+.second-row__contact {
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+	border-right:  1px solid black;
+}
+
+.second-row__second-item {
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+}
+
+.second-row__third-item {
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+	border-left:  1px solid black;
+}
+
