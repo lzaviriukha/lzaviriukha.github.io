@@ -111,12 +111,55 @@ body {
 	margin: 20px;
 }
 
-.first-row__machines {
-	width: 400px;
-	height: 430px;
+.first-row__img {
 	margin: 10px;
-	background-image: url(../img/machines.jpg);
+	position: relative;
+	
+}
+
+/*IMG-TEXT*/
+
+.first-row__image-text {
+	width: 100%;
+	height: 60px;
+	background-color: rgba(189, 2, 8, 0.7);
+	position: absolute;
+	margin-top: -65px;
+}
+
+.first-row__arrow-up {
+	width: 43px;
+	height: 43px;
+	background-image: url(../img/arrow_up.png);
 	background-size: cover;
+	position: absolute;
+	transform: translate(180px,-30px);
+	opacity: 0.9;
+	cursor: pointer;
+	
+}
+
+
+.first-row__img-desc {
+	color: white;
+	font-weight: 600px;
+	font-size: 28px;
+	margin: 15px 10px 10px 10px;
+}
+
+/*FIRST-ROW__SUBMENU*/
+
+.first-row__submenu {
+	position: absolute;
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(140, 12, 12);
+	
+}
+
+.first-row__arrow-up:hover .first-row__submenu {
+	top: -100px;
 }
 
 .first-row__rent {
@@ -133,6 +176,8 @@ body {
 	margin: 10px;
 	background: black;
 }
+
+
 
 /*SECOND-ROW*/
 
