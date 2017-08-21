@@ -179,7 +179,7 @@ label[for="btn-3"]
 
 .first-row__modal-menu{
   margin-bottom:0px;
-  height: 400px;
+  height: 376px;
   margin-top: 10px;
   transform: translateY(0px);
   opacity: 0;  
@@ -230,6 +230,7 @@ label[for="btn-3"]
   transform: translateY(-400px);
   transition-property: transform;
   transition-duration: 2s;
+
 }
 
 #btn-1:not(:checked)~.first-row__modal-menu{
