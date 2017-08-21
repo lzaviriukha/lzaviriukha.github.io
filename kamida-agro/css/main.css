@@ -11,7 +11,7 @@ a:link, a:visited {
 /*BODY*/
 
 body {
-	min-width: 1000px;
+	margin: 0 auto;
 	background: url(../img/background.jpg) repeat;
 }
 
@@ -20,7 +20,8 @@ body {
 .site-header__wrapper {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
+	flex-wrap: nowrap;
+	width: 1328px;
 	background: #41474a;
 	padding: 10px;
 }
@@ -28,6 +29,7 @@ body {
 .site-header__img-slogan {
 	display: flex;
 	align-items: center;
+	flex-wrap: nowrap;
 }
 
 .site-header__logo {
@@ -66,7 +68,8 @@ body {
 
 .site-nav {
 	display: flex;
-	width: 100%;
+	flex-wrap: nowrap;
+	width: 1328px;
 	padding: 0px 10px;
 	background: #81847d;
 	text-transform: uppercase;
@@ -101,7 +104,7 @@ body {
 /*FIRST-ROW*/
 
 .flex-container {
-	margin-left: 0 auto;
+	width: 1345px;
 }
 
 .first-row {
@@ -114,6 +117,7 @@ body {
 .first-row__img {
 	margin: 10px;
 	position: relative;
+	overflow: hidden;
 	
 }
 
@@ -142,7 +146,7 @@ body {
 }
 
 .modal-menu_arrow {
-	transform: translate(130px,-35px) rotate(180deg);
+	transform: translate(140px,-35px) rotate(180deg);
 }
 
 label[for="btn-1"]
@@ -175,9 +179,10 @@ label[for="btn-3"]
 
 .first-row__modal-menu{
   margin-bottom:0px;
-  height: 385px;
-  display:none;
-  transition: all 5s ease-in-out;
+  height: 400px;
+  margin-top: 10px;
+  transform: translateY(0px);
+  opacity: 0;  
 }
 
 .modal-menu--h1 {
@@ -203,21 +208,40 @@ label[for="btn-3"]
 }
 
 #btn-1:checked~ .first-row__modal-menu{
-  display:block;
+  opacity: 1; 
   background: rgb(189, 2, 8);
   transform: translateY(-400px);
+  transition-property: transform;
+  transition-duration: 2s;
 }
 
+
 #btn-2:checked~ .first-row__modal-menu{
-  display:block;
+  opacity: 1; 
   background: rgb(189, 2, 8);
   transform: translateY(-400px);
+  transition-property: transform;
+  transition-duration: 2s;
 }
 
 #btn-3:checked~ .first-row__modal-menu{
-  display:block;
+  opacity: 1; 
   background: rgb(189, 2, 8);
   transform: translateY(-400px);
+  transition-property: transform;
+  transition-duration: 2s;
+}
+
+#btn-1:not(:checked)~.first-row__modal-menu{
+	transition-duration: 2s;
+}
+
+#btn-2:not(:checked)~.first-row__modal-menu{
+	transition-duration: 2s;
+}
+
+#btn-3:not(:checked)~.first-row__modal-menu{
+	transition-duration: 2s;
 }
 
 /************************/
