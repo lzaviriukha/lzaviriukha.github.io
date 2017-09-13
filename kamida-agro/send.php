@@ -29,21 +29,12 @@ if (!preg_match("|^([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})|is",
   {
      $msg="
 
-  	<p>E-mail: $email<p>
+  	<p>E-mail: $email</p>
   	";
 
   	//Отправляем письмо админу 
   	mail("$adminemail", "$date $time Сообщение от $email");
-
-  	// Сохраняем в базу данных
-
-  	$f = fopen("message.txt", "a+");
-  	fwrite($f, "\n $date $time Сообщение от $email");
-  	fwrite($f, "\n $msg");
-  	fwrite($f, "\n ---------------");
-  	fclose($f);
-  }
-
+  	
 
   // Выводим сообщение пользователю
 
