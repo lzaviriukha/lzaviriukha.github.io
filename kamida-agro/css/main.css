@@ -302,5 +302,38 @@ label[for="btn-3"]
 	height: 200px;
 	margin: 10px;
 	border-left: 1px solid black;
+	padding: 10px;
 }
+
+.third-item__caption {
+	color: #a7061f;
+	font: 600 16px Arial;
+	text-align: center;
+}
+
+.form {
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
+.form__email {
+	width: 215px;
+	height: 25px;
+	outline-color: #a7061f;
+}
+
+.form__btn {
+  display: inline-block;
+  color: #a7061f;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 15px;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 1px;
+  text-transform: uppercase;
+  background: rgb(192,192,192, 0.5)
+}
+
 
