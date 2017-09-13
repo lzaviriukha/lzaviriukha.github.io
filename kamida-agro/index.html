@@ -11,6 +11,7 @@
 	
 	<!-- Header -->
 	<header class="site-header">
+
 		<div class="site-header__wrapper">
 			<div class="site-header__img-slogan">
 				<img src="img/logo1.png" alt="logo" class="site-header__logo">
@@ -46,10 +47,10 @@
 					<input class="first-row_btn" type="checkbox" id="btn-1">
 					<label for="btn-1"><img src="img/arrow_up.png" class="first-row__arrow-up"></label>
 					<ul class="first-row__modal-menu modal-menu">
-					<label for="btn-1"><img src="img/arrow_up.png" class="first-row__arrow-up modal-menu_arrow"></label>
-					<p class="first-row__img-desc modal-menu--h1">
-						Техника на продажу
-					</p>
+						<label for="btn-1"><img src="img/arrow_up.png" class="first-row__arrow-up modal-menu_arrow"></label>
+						<p class="first-row__img-desc modal-menu--h1">
+							Техника на продажу
+						</p>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Комбайны</a></li>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Тракторы</a></li>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Погрузчики</a></li>
@@ -67,10 +68,10 @@
 					<input class="first-row_btn" type="checkbox" id="btn-2">
 					<label for="btn-2"><img src="img/arrow_up.png" class="first-row__arrow-up"></label>
 					<ul class="first-row__modal-menu modal-menu">
-					<label for="btn-2"><img src="img/arrow_up.png" class="first-row__arrow-up modal-menu_arrow"></label>
-					<p class="first-row__img-desc modal-menu--h1">
-						Аренда техники
-					</p>
+						<label for="btn-2"><img src="img/arrow_up.png" class="first-row__arrow-up modal-menu_arrow"></label>
+						<p class="first-row__img-desc modal-menu--h1">
+							Аренда техники
+						</p>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Условия аренды</a></li>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Контакты</a></li>
 					</ul>
@@ -86,10 +87,10 @@
 					<input class="first-row_btn" type="checkbox" id="btn-3">
 					<label for="btn-3"><img src="img/arrow_up.png" class="first-row__arrow-up"></label>
 					<ul class="first-row__modal-menu modal-menu">
-					<label for="btn-3"><img src="img/arrow_up.png" class="first-row__arrow-up modal-menu_arrow"></label>
-					<p class="first-row__img-desc modal-menu--h1">
-						О компании
-					</p>
+						<label for="btn-3"><img src="img/arrow_up.png" class="first-row__arrow-up modal-menu_arrow"></label>
+						<p class="first-row__img-desc modal-menu--h1">
+							О компании
+						</p>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Kamida Agro</a></li>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Новости</a></li>
 						<li class="modal-menu__item"><a class="modal-menu__link" href="#">Контакты</a></li>
@@ -97,10 +98,32 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="second-row">
-			<div class="second-row__contact"></div>
+			<div class="second-row__contact">
+				<p class="second-row__text second-row__text--black">
+					здесь вы можете посмотреть технику
+				</p>
+				<div class="second-row__vcard vcard-secondRow">
+					<p itemprop="adress" itemscope="" itemtype="http://data-vocabulary.org/Ardess">
+						<span itemprop="street-adress" class="second-row__text">ул. Никольская 19/а</span>
+						<br>
+						<span itemprop="locality" class="second-row__text">г. Николаев,</span>
+						<span itemprop="region" class="second-row__text">Николаевская область,</span>
+						<span itemprop="postal-code" class="second-row__text">5400,</span>
+						<br>
+						<span itemprop="country-name" class="second-row__text">Украина</span>
+					</p>
+				</div>
+			</div>
+
 			<div class="second-row__second-item"></div>
-			<div class="second-row__third-item"></div>
+			<div class="second-row__third-item third-item">
+				<h2 class="third-item__caption">
+					подписывайтесь на наши новости
+				</h2>
+				<form action="send.php" class="third-item__form form" method="post"><input type="email" class="form__email" name="email" placeholder="введите e-mail" required=""><button class="from__btn">выслать</button></form>
+			</div>
 		</div>
 	</main>
 
