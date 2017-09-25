@@ -102,7 +102,7 @@ body {
 /*FIRST-ROW*/
 
 .flex-container {
-	width: 1345px;
+	width: 100%;
 }
 
 .first-row {
