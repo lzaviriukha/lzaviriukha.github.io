@@ -1,41 +1,42 @@
-$(document).ready(function(){
-	$("#menu").on("click","a", function (event)
-		
-	 {
-		event.preventDefault();
-		var id  = $(this).attr('href'),
-		top = $(id).offset().top;
-		$('body,html').animate({scrollTop: top}, 1500);
-	});
+window.onload = function () {
+
+ // Инициализация плавного скролла
+    var scroll = new SmoothScroll('a[href*="#"]');
 
 
-	$(window).scroll(function() {
-    $('.cardwrapper__container--background').each(function(){
-      var imagePos = $(this).offset().top;
-      var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+600) {
-        $(this).addClass('cardwrapper__container--scale');
-      }
+    // Переключение фона меню при скролле
+    window.addEventListener('scroll', function (e) {
+        var header = document.querySelector('#header');
+
+         if (window.scrollY > 100) {
+            header.style.backgroundColor = 'white';
+        } else {
+            header.style.backgroundColor = null;
+        }
     });
-  });
 
-	$(window).scroll(function() {
-    $('.progress-box').each(function(){
-      var imagePos = $(this).offset().top;
-      var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+600) {
-        $(this).addClass('progress-box--width');
-      }
-    });
-  });
 
-	$(window).scroll(function(){
-		if ($(window).scrollTop() > '100'){
-			$('#header').css({ background:'white'});
-		}
-		if ($(window).scrollTop() < '100'){
-			$('#header').css({ background:'none'});
-		}
-	});
-});
+    /**
+     * Функция добавляет классс к элементу, когда пользователь до него доскролливает.
+     */
+    function addClassWhenScrolledTo(elemSelector, addedClass, elemTopShift) {
+        window.addEventListener('scroll', function (e) {   
 
+            (document.querySelectorAll(elemSelector) || []).forEach(function (elem) {
+                var elemTop = elem.getBoundingClientRect().top + document.body.scrollTop;
+                var windowTop = window.scrollY;
+
+
+                if (elemTop < windowTop + elemTopShift ) { 
+                   elem.classList.add(addedClass);
+               }
+           });
+        });
+    }
+
+    // "Всплытие" карточки Photoshop
+    addClassWhenScrolledTo('.cardwrapper__container--background', 'cardwrapper__container--scale', 600);
+
+    // Заполнение прогрессбаров скиллов
+    addClassWhenScrolledTo('.progress-box', 'progress-box--width', 600);
+};
