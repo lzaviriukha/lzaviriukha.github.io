@@ -92,8 +92,8 @@ nav li.current a{
 
 .slider-block {
 	background: url(img/bg-slider-block.png) no-repeat 0 0;
-	height: 332px;
-	padding: 85px 50px 0;
+	height: 251px;
+	padding: 85px 50px 0px;
 	color: #fff;
 	font-size: 29px;
 	font-family: Treb;
@@ -327,4 +327,47 @@ nav li.current a{
 	-moz-border-radius: 8px;
 	border-radius: 8px;
 	font-weight: bold;
+}
+
+.blurbs{
+	background: #ededed;
+	padding: 35px 0px 22px 50px;
+
+}
+
+.blurbs li{
+	float: left;
+	padding: 12px 0px 12px 90px;
+	width: 150px;
+	margin-right: 74px;
+}
+
+.blurbs li:last-child{
+	margin-right: 0;
+} 
+
+.blurbs h3{
+	font-size: 15px;
+	color: #575757;
+}
+
+.blurbs li.money{
+	background: url(img/money.png) no-repeat 0 50%;
+}
+
+.blurbs li.clock{
+	background: url(img/clock.png) no-repeat 0 50%;
+}
+
+.blurbs li.contact{
+	background: url(img/contact.png) no-repeat 0 50%;
+}
+
+
+      /*clearfix*/
+
+.blurbs:after{
+	content: '';
+	display: table;
+	clear: both;
 }
