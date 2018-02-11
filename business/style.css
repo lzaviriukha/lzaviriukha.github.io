@@ -85,6 +85,8 @@ nav li.current a{
 
                  /*HEADER END*/
 @font-face{
+	font-family: nevis;
+	src:url(fonts/nevis.ttf);
 	font-family: Treb;
 	src:url(fonts/treb.ttf);
 }
@@ -332,6 +334,7 @@ nav li.current a{
 .blurbs{
 	background: #ededed;
 	padding: 35px 0px 22px 50px;
+	border-bottom: 1px solid #cecece;
 
 }
 
@@ -364,9 +367,69 @@ nav li.current a{
 }
 
 
+.middle-block{
+	background: #fff;
+	padding: 40px 0px 50px 40px;
+}
+
+.middle-block li{
+	float: left;
+	width: 265px;
+	margin-right: 45px;
+}
+
+.middle-block li:last-child{
+	margin-right: 0px;
+}
+
+.middle-block h2{
+	font-size: 25px;
+	color: #585858;
+	margin-bottom: 25px;
+}
+
+.middle-block p{
+	margin: 22px 0;
+}
+
+.middle-block a.read-more{
+    text-transform: uppercase;
+	color: #6c6c6c;
+	padding: 8px 17px 8px 10px;
+	-o-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	background-image: linear-gradient(to top, #e5e5e5, #fefefe);
+}
+
+.middle-block a.read-more:hover{
+	background-image: linear-gradient(to top, #fefefe, #e5e5e5);
+}
+
+.design{
+	list-style-image: url(img/arrow-design.png);
+	list-style-position: inside;
+}
+
+.design li{
+	border-bottom: 1px dotted #838383;
+	padding: 5px 0;
+}
+
+.design li:last-child{
+	border-bottom: none;
+}
+
+.design a{
+	color: #0f4db6;
+}
+
+
       /*clearfix*/
 
-.blurbs:after{
+.middle-block:after, .blurbs:after{
 	content: '';
 	display: table;
 	clear: both;
