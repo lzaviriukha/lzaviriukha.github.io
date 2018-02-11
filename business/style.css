@@ -87,10 +87,12 @@ nav li.current a{
 @font-face{
 	font-family: nevis;
 	src:url(fonts/nevis.ttf);
+}
+
+@font-face{
 	font-family: Treb;
 	src:url(fonts/treb.ttf);
 }
-
 
 .slider-block {
 	background: url(img/bg-slider-block.png) no-repeat 0 0;
@@ -382,7 +384,7 @@ nav li.current a{
 	margin-right: 0px;
 }
 
-.middle-block h2{
+h2.title, .middle-block h2{
 	font-size: 25px;
 	color: #585858;
 	margin-bottom: 25px;
@@ -393,6 +395,7 @@ nav li.current a{
 }
 
 .middle-block a.read-more{
+	font-family: nevis;
     text-transform: uppercase;
 	color: #6c6c6c;
 	padding: 8px 17px 8px 10px;
@@ -582,14 +585,48 @@ main p{
 	margin-left: 21px;
 }
 
-     /*END ABOUT US*/       
+     /*END ABOUT US*/
+
+     /*SERVISES BEGIN*/
+
+.flright{
+	margin-left: 35px;
+	padding: 7px 12px 7px 7px;
+}
+
+.top-gradient{
+	background:url(img/bg-top-grad.gif) repeat-x 0 0 #fff;
+}
+
+.benefits{
+	padding: 25px 0 50px 50px;
+}
+
+.benefits h2.title{
+	margin-top: 0px;
+}
+
+.benefits li{
+	width: 340px;
+	padding-left: 45px;
+	background: url(img/arrow-benefits.png) no-repeat 0 50%;
+	margin: 0 80px 40px 0;
+	float:left;
+}
+
+.benefits li:nth-child(even){
+	margin-right: 0;
+}
+
+     /*SERVISES END*/       
 
 
  /*clearfix*/
 .middle-block:after, 
 .blurbs:after,
 .top-footer:after,
-.main-block:after{
+.main-block:after,
+.benefits:after{
 	content: '';
 	display: table;
 	clear: both;
