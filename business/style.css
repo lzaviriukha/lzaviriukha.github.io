@@ -486,7 +486,42 @@ footer{
 
 .date{
 	margin-top: 16px;
+}
 
+.bottom-footer{
+	padding: 25px 41px 26px;
+	border-top: 1px solid #ffffff;
+}
+
+.bottom-footer .logo{
+	float:right;
+
+}
+
+
+.social{
+	float: right;
+	margin-right: 73px;
+}
+
+.social li{
+	float: left;
+	margin-right: 15px;
+}
+
+.social a{
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(img/sprites.png) no-repeat 0 0;
+}
+
+.social a.in{
+	background-position: -18px 0;
+}
+
+.social a.f{
+	background-position: -38px 0;
 }
 
     /*END FOOTER*/ 
