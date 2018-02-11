@@ -621,6 +621,54 @@ main p{
      /*SERVISES END*/       
 
 
+     /*PORTFOLI BEGIN*/
+.page-block ul{
+	float:right;
+}
+
+.page-block li{
+	float: left;
+	margin-right: 30px;
+}
+
+.page-block li:last-child{
+	margin-right:0;
+}
+
+.page-block li a{
+	color: #93daff;
+	font-size: 13px;
+}
+
+.page-block li a.current{
+	color: #fff;
+}
+
+.portfolio .middle-block{
+    padding: 40px 0px 50px 25px;
+}
+
+.pagination{
+	padding: 21px 0 33px 41px;
+}
+
+.pagination li{
+	display: inline-block;
+	margin-right: 14px;
+}
+
+.pagination li a{
+	color: #0f4db6;
+	font-weight: bold;
+}
+
+.pagination li a.pagination_current{
+	color: #0e0e0e;
+}
+     
+
+     /*PORTFOLI END*/
+
  /*clearfix*/
 .middle-block:after, 
 .blurbs:after,
