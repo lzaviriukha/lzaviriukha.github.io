@@ -427,9 +427,76 @@ nav li.current a{
 }
 
 
+
+    /*BEGIN FOOTER*/
+    
+
+footer{
+	background:url(img/bg-top-footer.gif) repeat-x #ededed;
+	-o-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+
+}     
+
+.top-footer{
+	padding: 25px 0 10px 41px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.top-footer > li {
+	float: left;
+}
+
+.top-footer h3{
+	font-size: 15px;
+	color: #585858;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.browse-site{
+	width: 120px;
+}
+
+.browse-site a{
+	color: #4f4f4f;
+}
+
+.our-test{
+	width: 315px;
+	margin: 0 60px 0 115px;
+}
+
+.our-test .bold{
+	color: #000000;
+	font-weight: bold;
+}
+
+.our-blog{
+	width: 280px;
+	line-height: 15px;
+}
+
+.our-blog .blue{
+	color: #0f4db6;
+	font-weight: bold;
+}
+
+.date{
+	margin-top: 16px;
+
+}
+
+    /*END FOOTER*/ 
+
+
       /*clearfix*/
 
-.middle-block:after, .blurbs:after{
+.middle-block:after, 
+.blurbs:after,
+.top-footer:after{
 	content: '';
 	display: table;
 	clear: both;
