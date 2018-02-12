@@ -200,3 +200,83 @@ nav a{
 	text-transform: uppercase;
 }
 
+#about{
+	width: 100%;
+	padding-top: 18vh;
+	padding-bottom: 22vh;
+	background-color: #fff;
+}
+
+#text_about{
+	width: 44vw;
+	padding-right: 1.5vw;
+}
+
+#text_about--p{
+	padding-left: 1.8vw;
+}
+
+#text_about ul{
+	width: 30vw;
+	margin: 6vh 0;
+}
+
+#text_about ul li{
+	margin-bottom: 1.8vh;
+}
+
+.blue{
+	color: #00aaef;
+}
+
+#title_about p{
+	text-transform: uppercase;
+	font-size: 3.8vw;
+	line-height: 4.74vh;
+}
+
+#title_about{
+	width: 30vw;
+}
+
+.title{
+	margin: 0 auto 5.5vh;
+	z-index: 5;
+	width: fit-content;
+	position: relative;
+	top: -2.61vh;
+}
+
+.title h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.79vw;
+	color: #323232;
+	line-height: 2.84vw;
+	margin-bottom: 1.22vh;
+	font-weight: 400;
+	letter-spacing: 0.1vw;
+}
+
+.dec_svg{
+	width: 2.58vw;
+	margin: 0 0.79vw;
+}
+
+.line{
+	background-color: #00aaef;
+	height: 0.26vh;
+	width: 100%;
+}
+
+
+
+#gallery{
+	background-color: #c9c9c9;
+	padding: 0 0 14.3vh;
+}
+
+
+#svg_1{fill:#FFFFFF;}
+
+#svg_2{fill:#00aaef;}
