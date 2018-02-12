@@ -669,6 +669,69 @@ main p{
 
      /*PORTFOLI END*/
 
+      
+     /*CONTACT BEGIN*/
+
+form{
+	width: 385px;
+}   
+
+label{
+	font-size: 13px;
+	color: #4f4f4f;
+} 
+
+input[type="text"], textarea{
+	border: 1px solid #c9c9c9;
+	-o-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background:url(img/bg-top-grad.gif) repeat-x 0 0 #fff;
+	width: 100%;
+	padding: 8px 3px;
+	resize: none;
+} 
+
+.sd-block a{
+    color: #4f4f4f; 
+}
+
+.soc-contact li{
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.soc-contact a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background:url(img/sprites.png) no-repeat 0 -16px;
+}
+
+.soc-contact a.t{
+	background:url(img/sprites.png) no-repeat -32px -16px;
+}
+
+.soc-contact a.f{
+	background:url(img/sprites.png) no-repeat -64px -16px;
+}
+
+input.submit{
+	padding: 8px 23px;
+	margin-top: 20px;
+	background:url(img/bg-top-grad.gif) repeat-x 0 0 #fff;
+	color: #4f4f4f;;
+	border: 1px solid #c9c9c9;
+	-o-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+     /*CONTACT END*/
+
+  
+
  /*clearfix*/
 .middle-block:after, 
 .blurbs:after,
