@@ -9,7 +9,7 @@ table{border-collapse: collapse; border-spacing: 0;}address, article, aside, can
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	 box-sizing: border-box;
+	box-sizing: border-box;
 } 
 
 a, a:hover, button, button:hover, .animev{
@@ -23,124 +23,124 @@ a, a:hover, button, button:hover, .animev{
 
 /*Flex Framework*/ 
 .main_flex {
- display:flex;
- display:-webkit-flex;
- -webkit-flex-flow:row wrap;
- flex-flow:row wrap;
+	display:flex;
+	display:-webkit-flex;
+	-webkit-flex-flow:row wrap;
+	flex-flow:row wrap;
 }
 
 .main_flex__nowrap{
- display:flex;
- display:-webkit-flex;
- -webkit-flex-flow:row nowrap;
- flex-flow:row nowrap;
+	display:flex;
+	display:-webkit-flex;
+	-webkit-flex-flow:row nowrap;
+	flex-flow:row nowrap;
 }
 
 .flex__auto {
- flex:auto;
- -webkit-flex:auto;
- -ms-flex:auto;
+	flex:auto;
+	-webkit-flex:auto;
+	-ms-flex:auto;
 } 
 
 .flex__jcontent_between {
- justify-content:space-between;
- -webkit-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
 }
 
 .flex__jcontent_start{
- justify-content:flex-start;
- -webkit-justify-content:flex-start;
+	justify-content:flex-start;
+	-webkit-justify-content:flex-start;
 }
 
 .flex__jcontent_end{
- justify-content:flex-end;
- -webkit-justify-content:flex-end;
+	justify-content:flex-end;
+	-webkit-justify-content:flex-end;
 } 
 
 .flex__jcontent_center{
- justify-content:center;
- -webkit-justify-content:center;
+	justify-content:center;
+	-webkit-justify-content:center;
 } 
 
 .flex__jcontent_around{
- justify-content:space-around;
- -webkit-justify-content:space-around;
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
 } 
 
 
 .flex__align-items_start{
- align-items:flex-start;
- -webkit-align-items:flex-start;
+	align-items:flex-start;
+	-webkit-align-items:flex-start;
 } 
 
 .flex__align-items_end{
- align-items:flex-end;
- -webkit-align-items:flex-end;
+	align-items:flex-end;
+	-webkit-align-items:flex-end;
 } 
 
 .flex__align-items_baseline{
- align-items:baseline;
- -webkit-align-items:baseline;
+	align-items:baseline;
+	-webkit-align-items:baseline;
 } 
 
 .flex__align-items_stretch{
- align-items:stretch;
- -webkit-align-items:stretch;
+	align-items:stretch;
+	-webkit-align-items:stretch;
 } 
 
 .flex__align-items_center{
- align-items:center;
- -webkit-align-items:center;
+	align-items:center;
+	-webkit-align-items:center;
 } 
 
 .flex__align-content_flex-start{
- align-content:flex-start;
- -webkit-align-content:flex-start;
+	align-content:flex-start;
+	-webkit-align-content:flex-start;
 } 
 
 .flex__align-content_flex-end{
- align-content:flex-end;
- -webkit-align-content:flex-end;
+	align-content:flex-end;
+	-webkit-align-content:flex-end;
 } 
 
 .flex__align-content_space-between{
- align-content:space-between;
- -webkit-align-content:space-between;
+	align-content:space-between;
+	-webkit-align-content:space-between;
 } 
 
 .flex__align-content_center{
- align-content:center;
- -webkit-align-content:center;
+	align-content:center;
+	-webkit-align-content:center;
 } 
 
 .flex__align-content_space-around{
- align-content:space-around;
- -webkit-align-content:space-around;
+	align-content:space-around;
+	-webkit-align-content:space-around;
 } 
 
 .flex__align-content_stretch{
- align-content:stretch;
- -webkit-align-content:stretch;
+	align-content:stretch;
+	-webkit-align-content:stretch;
 } 
 
 .flex__flex-grow_01{
- flex-grow:1;
- -webkit-flex-grow:1;
+	flex-grow:1;
+	-webkit-flex-grow:1;
 } 
 
 .flex__flex-grow_02{
- flex-grow:2;
- -webkit-flex-grow:2;
+	flex-grow:2;
+	-webkit-flex-grow:2;
 } 
 
 .flex__flex-grow_03{
- flex-grow:3;
- -webkit-flex-grow:3;
+	flex-grow:3;
+	-webkit-flex-grow:3;
 } 
 
 .flex__flex-grow_04{
- flex-grow:4;
- -webkit-flex-grow:4;
+	flex-grow:4;
+	-webkit-flex-grow:4;
 }
 
 
@@ -359,7 +359,8 @@ nav a{
 }
 
 #form_consultation input,
-#form_contact input{
+#form_contact input,
+#form_call input {
 	background-color: #eeeeee;
 	border: none;
 	text-align: center;
@@ -376,7 +377,7 @@ nav a{
 	border: none;
 	text-align: center;
 	width: 100%;
-    height: 27.7vh;
+	height: 27.7vh;
 	font-size: 1.1vw;
 	color: #393939;
 	text-transform: uppercase;
@@ -394,6 +395,10 @@ nav a{
 #form_contact button{
 	width: 30vw;
 	text-align: center;
+}
+
+#form_call button{
+	width: 40vw;
 }
 
 #consultation{
@@ -426,7 +431,7 @@ nav a{
 
 #testimonials{
 	background-color: #eee;
-    padding-bottom: 17.19vh;
+	padding-bottom: 17.19vh;
 }
 
 .box_tm{
@@ -544,7 +549,175 @@ footer{
 /*FOOTER END*/
 
 
-  /*SVG*/
+/*MODAL BEGIN*/
+
+
+#black_fill{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+#modal_box{
+	position: fixed;
+	top: 20vh;
+	width: 50vw;
+	left: calc(50% - 25vw);
+	z-index: 51;
+}
+
+#content_modal{
+	width: 100%;
+	background-color: #fff;
+	padding: 10%;
+}
+
+#close_modal{
+	width: 2vw;
+	height: 2vw;
+	fill: #fff;
+	position: absolute;
+	top: -4vw;
+	right: -4vw;
+	cursor: pointer;
+}
+
+
+/*MODAL END*/
+
+/*SLIDER HEADER  BEGIN*/
+
+
+#header{
+	animation: slideshow 8s linear infinite 0s;
+	backface-visibility: hidden;
+}
+
+@-webkit-keyframes slideshow{
+
+	0%
+	{
+		background-image: url(../img/header_01.png);
+		animation-timing-function: ease-in-out;
+	}
+
+	50%
+	{
+		background-image: url(../img/header_02.png);
+		animation-timing-function: ease-in-out;
+	}
+
+	100%
+	{
+		background-image: url(../img/header_01.png);
+		animation-timing-function: ease-in-out;
+	}
+}
+
+/*SLIDER HEADER END*/
+
+
+/*ADAPTIVE BEGIN*/
+
+@media only screen and ( min-device-width: 320px ) and (
+	max-device-width: 480px),
+@media only screen and ( max-width: 320px ),
+@media only screen and ( min-device-width: 768px ) and (
+	max-device-width: 1024px) 
+
+{
+	#bottom_header{
+		display: none;
+	}
+
+	#header{
+		padding: 5vh 0;
+	}
+
+	#top_header{
+		height: 90vh;
+		flex-flow: column !important; 
+	}
+
+	#logo,
+	#logo_footer{
+		width: 35vh;
+	}
+
+	body,
+	.btn{
+		font-size: 2.26vmax;
+		line-height: 2.9vmax;
+	}
+
+	.dec_svg{
+		width: 9vw;
+	}
+
+	.title h2,
+	.title_consultation h2{
+		font-size: 9vw;
+	}
+
+	.title_consultation{
+		top: -9.61vw;
+	}
+
+	.name_gallery{
+		font-size: 3.5vw;
+	}
+	
+	#text_consultation h2{
+		font-size: 5.5vw;
+		line-height: 6.8vw;
+		text-align: center;
+	}
+
+	#consultation .wrap,
+	#Contacts .wrap{
+		flex-flow: column !important;
+	}
+
+	#consultation .wrap div,
+	#Contacts .wrap div,
+	#contact_list{
+		width: 100% !important;
+	}
+
+	#contact_list li{
+		text-align: center;
+		font-size: 3vw;
+	}
+
+	#form_con .btn,
+	#form_cont .btn{
+		width: 100% !important;
+	}
+
+	#text_consultation p{
+		text-align: center;
+		margin-bottom: 10vh;
+	}
+
+	#form_consultation input, #form_contact input, #form_call input{
+		font-size: 3vw;
+	}
+
+	.name_tm h4, .name_tm h3{
+		font-size: 4vw;
+	}
+
+}
+
+/*ADAPTIVE END*/
+
+
+/*SVG*/
 
 #svg_1{fill:#FFFFFF;}
 

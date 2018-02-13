@@ -57,5 +57,16 @@ $(function(){
 	});
 
 
+// Модальное окно
+
+	$('#modal_box, #black_fill').hide(); //спрятать мдальное окно и затемнённый фон
+    
+    $('#call').click(function(){     //вызвать модальное окно при нажатии на  call to order
+    	$('#modal_box, #black_fill').show();  
+    })
+
+    $('#close_modal, #black_fill').click(function(){  //прятать модальное окно при нажатии на крестик или заливку
+  		$('#modal_box, #black_fill').hide();
+    }) 
 
 });
