@@ -244,7 +244,7 @@ nav a{
 	z-index: 5;
 	width: fit-content;
 	position: relative;
-	top: -2.61vh;
+	top: -1.61vw;
 }
 
 .title h2{
@@ -337,6 +337,127 @@ nav a{
 .blue_btn:hover{
 	background-color: #0185ba;
 }
+
+
+
+/*CONSUTATION BEGIN*/
+
+#consultation {
+	background-color: #fff;
+}
+
+#text_consultation{
+	width: 36.36vw;
+}
+
+#text_consultation h2{
+	font-size: 2.52vw;
+	line-height: 2.84vw;
+	margin-bottom: 6.53vh;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+#form_consultation input{
+	background-color: #eeeeee;
+	border: none;
+	text-align: center;
+	width: 100%;
+	height: 6.79vh;
+	font-size: 1.1vw;
+	color: #393939;
+	text-transform: uppercase;
+	margin-bottom: 1.3vh;
+}
+
+#form_consultation{
+	width: 30vw;
+}
+
+#form_consultation button{
+	width: 30vw;
+	text-align: center;
+}
+
+#consultation{
+	padding-bottom: 19vh;
+}
+
+.title_consultation{
+	margin: 0 auto 5.5vh;
+	z-index: 5;
+	width: fit-content;
+	position: relative;
+	top: -4.61vw;
+}
+
+.title_consultation h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.79vw;
+	color: #323232;
+	line-height: 2.84vw;
+	margin-bottom: 1.22vh;
+	font-weight: 400;
+	letter-spacing: 0.1vw;
+}
+/*CONSULTATION END*/
+
+
+/*TESTIMONALS BEGIN*/
+
+
+#testimonials{
+	background-color: #eee;
+    padding-bottom: 17.19vh;
+}
+
+.box_tm{
+	width: 23.71vw;	
+}
+
+.name_tm h3{
+	font-weight: bold;
+}
+
+.name_tm h4{
+	font-style: italic;
+	color: #696973;
+	font-weight: 400;
+}
+
+.name_tm h4, .name_tm h3{
+	font-size: 1.26vw;
+	text-align: center;
+}
+
+.name_tm {
+	margin-bottom: 1.3vh;
+}
+
+.text_tm{
+	text-align: center;
+}
+
+.box_img_tm{
+	width: 11.62vw;
+	height: 10.62vw;
+	border-radius: 11.62vw;
+	overflow: hidden;
+	text-align: center;
+}
+
+.box_img_tm img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/*TESTIMONALS END*/
+
+
 
   /*SVG*/
 
