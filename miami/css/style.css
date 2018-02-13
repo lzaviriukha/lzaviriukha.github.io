@@ -277,6 +277,69 @@ nav a{
 }
 
 
+
+.box_img_gllery{
+	height: 20.15vmax;
+	overflow: hidden;
+	
+}
+
+.ig_1 {
+	width: 49vw;
+	margin-right: 1.58vw;
+	
+}
+
+.ig_2 {
+	width: 23.71vw;
+}
+
+.ig_3 {
+	width: 36.36vw;
+	margin-right: 1.58vw;
+}
+
+.ig_4 {
+	width: 38.06vw;
+}
+
+.ig_5 {
+	width: 23.71vw;
+	margin-right: 1.58vw;
+}
+
+.ig_6 {
+	width: 53.86vw;
+}
+
+.box_img_gllery img{
+	width: 100%;
+	height: 100%;
+}
+
+.name_gallery{
+	font-size: 1.26vw;
+	margin: 2.61vh 0 4.57vh;
+	font-weight: 700;
+}
+
+.blue_btn{
+	background-color: #00aaef;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn{
+	border: none;
+	padding: 1.58vw 4.98vw;
+}
+
+.blue_btn:hover{
+	background-color: #0185ba;
+}
+
+  /*SVG*/
+
 #svg_1{fill:#FFFFFF;}
 
 #svg_2{fill:#00aaef;}
