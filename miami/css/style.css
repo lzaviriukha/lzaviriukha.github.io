@@ -358,7 +358,8 @@ nav a{
 	margin-top: 0;
 }
 
-#form_consultation input{
+#form_consultation input,
+#form_contact input{
 	background-color: #eeeeee;
 	border: none;
 	text-align: center;
@@ -370,11 +371,27 @@ nav a{
 	margin-bottom: 1.3vh;
 }
 
-#form_consultation{
+#form_contact textarea{
+	background-color: #eeeeee;
+	border: none;
+	text-align: center;
+	width: 100%;
+    height: 27.7vh;
+	font-size: 1.1vw;
+	color: #393939;
+	text-transform: uppercase;
+	margin-bottom: 1.3vh;
+	resize: none;
+	padding-top: 2.35vh;
+}
+
+#form_consultation,
+#form_contact{
 	width: 30vw;
 }
 
-#form_consultation button{
+#form_consultation button,
+#form_contact button{
 	width: 30vw;
 	text-align: center;
 }
@@ -453,10 +470,53 @@ nav a{
 }
 
 
-
-
 /*TESTIMONALS END*/
 
+
+/*CONTACT BEGIN*/
+
+#contact_list li{
+	list-style: none;
+	margin-bottom: 5.62vh;
+	font-size: 1.89vw;
+}
+
+#contact_list{
+	width: 25vw;
+}
+
+#Contacts{
+	padding-bottom: 19vh;
+}
+
+/*CONTACT END*/
+
+
+/*FOOTER BEGIN*/
+
+footer{
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 71vh;
+	position: relative;
+}
+
+#logo_footer{
+	width: 9vw;
+}
+
+#coper{
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	bottom: 9.15vh;
+	text-align: center;
+}
+
+/*FOOTER END*/
 
 
   /*SVG*/
