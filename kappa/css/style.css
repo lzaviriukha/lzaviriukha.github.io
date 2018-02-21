@@ -146,6 +146,15 @@ a, a:hover, button, button:hover, .animev{
 
 /*Flex Framework END*/
 
+/*BODY*/
+
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", 
+	"Trebuchet MS", Veranda, "sans-serif";
+}
+
+/*BODY END*/
+
 /*HEADER*/
 
 header{
@@ -173,4 +182,85 @@ header{
 	width: 6vw;
 	height: 5.6vh;
 }
+
+/*HEADER NAV*/
+
+#main_nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 0.93vmax;
+	line-height: 1.66vmax;
+	height: 3.22vmax;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
+	background-color: #2f373b;
+	background: #333b3f; /* Old browsers */
+	background: -moz-linear-gradient(top, #333b3f 0%, #2e363a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #333b3f 0%,#2e363a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #333b3f 0%,#2e363a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333b3f', endColorstr='#2e363a',GradientType=0 ); /* IE6-9 */
+	padding-right: 1.3vmax;
+}
+
+#main_nav a:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#18a3a1+0,31bcba+100 */
+	background: #18a3a1; /* Old browsers */
+	background: -moz-linear-gradient(top, #18a3a1 0%, #31bcba 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #18a3a1 0%,#31bcba 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #18a3a1 0%,#31bcba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18a3a1', endColorstr='#31bcba',GradientType=0 ); /* IE6-9 */
+}
+
+nav li{
+	list-style: none;
+}
+
+/*HEADER NAV END*/
+
+
+/*TITLE _FILTER BEGIN*/
+
+#title_filter{
+	color: #1ab5b3;
+	fill: #1ab5b3;
+	font-size: 0.98vmax;
+	padding: 1.25vmax;
+}
+
+#title_filter svg{
+	width: 0.9vmax;
+	height: 0.9vmax;
+	margin-left: 0.62vmax; 
+}
+
+#filter li{
+	list-style: none;
+	width: 100%;
+	text-align: right;
+}
+
+#filter a{
+	font-size: 0.67vmax;
+	line-height: 1.25vmax;
+	text-align: right;
+	padding: 0.41vmax 1.25vmax;
+	text-decoration: none;
+	color: #6b7072;
+}
+
+#filter a.active{
+	color: #fff;
+}
+
+#filter a:hover{
+	color: #fff;
+}
+
+/*TITLE_FILTER END*/
+
 /*HEADER END*/
