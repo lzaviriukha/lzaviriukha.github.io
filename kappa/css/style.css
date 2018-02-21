@@ -220,6 +220,10 @@ nav li{
 	list-style: none;
 }
 
+header ul{
+	margin-top: 0vmax;
+}
+
 /*HEADER NAV END*/
 
 
@@ -262,5 +266,79 @@ nav li{
 }
 
 /*TITLE_FILTER END*/
+
+/*SOC_BAR*/
+
+#soc_bar img{
+	width: 1.25vmax;
+	height: 1.25vmax;
+}
+
+#soc_bar a{
+	margin-left: 0.52vmax;
+}
+
+#soc_bar a:hover{
+	transform: scale(0.9);
+}
+
+#soc_bar{
+	padding: 1.25vmax;
+	border-top: 1px solid #1e282b;
+	width: 100%;
+	margin-top: 1.25vmax;
+}
+
+#cop{
+	text-align: right;
+	width: 100%;
+	font-size: 0.62vmax;
+	color: #6b7072;
+	padding-right: 1.25vmax;
+}
+
+/*SOC_BAR END*/
+
+
+/*MAIN BEGIN*/
+
+main {
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 15.62vw;
+
+}
+
+.work_box{
+	max-width: 21.09vw;
+	height: 16.19vw;
+	width: 25%;
+	position: relative;
+	overflow: hidden;
+}
+
+.work_box img{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+}
+
+.work_box a{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	height: inherit;
+	background-color: rgba(45,184,185,0.9);
+	color: #fff;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/*MAIN END*/
 
 /*HEADER END*/
