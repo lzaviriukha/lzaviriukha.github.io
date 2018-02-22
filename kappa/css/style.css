@@ -151,6 +151,7 @@ a, a:hover, button, button:hover, .animev{
 body{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", 
 	"Trebuchet MS", Veranda, "sans-serif";
+	background-color: #b4b7b8;
 }
 
 /*BODY END*/
@@ -299,6 +300,8 @@ header ul{
 
 /*SOC_BAR END*/
 
+/*HEADER END*/
+
 
 /*MAIN BEGIN*/
 
@@ -435,4 +438,90 @@ main {
 }
 /*MAIN END*/
 
-/*HEADER END*/
+
+/*WORK_SITE__BEGIN*/
+
+.wrap{
+	margin: 1.56vw;
+	padding: 1.56vw;
+}
+
+.white{
+	background-color: #fff;
+}
+
+.info_work_box{
+	width: 100%;
+}
+
+.info_work_box .left_info,
+.info_work_box .right_info{
+	width: 48%;
+}
+
+.info_work_box .left_info .img_box_work{
+	width: 100%;
+	overflow: hidden;
+	height: 29.16vw;
+}
+
+.info_work_box .left_info .img_box_work img{
+	width: 100%;
+	height: 100%;
+}
+
+.info_work_box .left_info .about_work{
+	margin-top: 1.3vw;
+    padding-bottom: 1.6vw;
+    border-bottom: 1px solid #e5e5e5;
+    color: #a3a3a3;
+    font-size: 0.93vw;
+    line-height: 1.56vw;
+}
+
+.info_work_box .left_info .about_work h1,
+.title_info{
+	font-size: 1.25vw;
+	line-height: 1.35vw;
+	color: #000;
+	margin-bottom: 1vw;
+	font-weight: 400;
+}
+
+.info_work_box .left_info .about_work p{
+	margin-bottom: 2.39vw;
+}
+
+.info_work_box .left_info .about_work p:last-of-type{
+	margin-bottom: 0;
+}
+
+.pr_info li{
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 0.8vw;
+	line-height: 1.56vw;
+	color: #848484;
+	padding: 0.72vw 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.title_info{
+	margin-left: 3.5vw;
+}
+
+.pr_info li img{
+	margin-right: 0.67vw;
+}
+
+.pr_info,
+.tags{
+	margin-bottom: 1.56vw;
+	
+}
+
+
+/*WORK_SITE__END*/
