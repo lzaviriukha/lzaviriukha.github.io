@@ -480,7 +480,10 @@ main {
 }
 
 .info_work_box .left_info .about_work h1,
-.title_info{
+.title_info,
+.project_title,
+.features_title,
+.related_title{
 	font-size: 1.25vw;
 	line-height: 1.35vw;
 	color: #000;
@@ -509,9 +512,7 @@ main {
 	border-bottom: 1px solid #e5e5e5;
 }
 
-.title_info{
-	margin-left: 3.5vw;
-}
+
 
 .pr_info li img{
 	margin-right: 0.67vw;
@@ -519,9 +520,94 @@ main {
 
 .pr_info,
 .tags{
-	margin-bottom: 1.56vw;
-	
+	margin-bottom: 2vw;
+
 }
 
 
+.tag{
+	font-size: 0.8vw;
+	line-height: 1.66vw;
+	color: #a3a3a3;
+	background-color: #fff;
+	border: 1px solid #a3a3a3;
+	border-radius: 1vw;
+	padding: 0.73vw 1vw;
+	margin-right: 0.52vw;
+	justify-content: space-between;
+	margin-bottom: 1.45vw;
+	transition: all 2s;
+	cursor: pointer;
+}
+
+.tag:last-of-type{
+	margin-right: 0;
+}
+
+.tag:hover{
+	color: #fff; 
+	background-color:#a3a3a3;
+}
+
+.project_box{
+	width: 4vmax;
+	height: 4vmax;
+	overflow: hidden;
+	margin-right: 0.62vw;
+	margin-bottom: 0.62vw;
+}
+
+.project_box img{
+	width: 100%;
+	height: 100%;
+}
+
+.project_box:last-of-type{
+	margin-right: 0;
+	margin-bottom: 2.40vw;
+}
+
+.features ul{
+	padding: 0;
+}
+
+.features li{
+	list-style: none;
+	font-size: 0.8vw;
+	color: #848484;
+	padding: 0.88vw 0;
+	font-weight: 600; 
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.features svg{
+	width: 0.62vw;
+	height:0.62vw;
+	fill: #848484;
+	margin-right: 0.41vw;
+}
+
+.related_title{
+	margin: 1.56vw 0vw 1.35vw;
+}
+
+.related_box{
+	width: 12.5vw;
+	height: 9.47vw;
+}
+
+.related_box img{
+	width: 100%;
+	height: 100%;
+}
+
 /*WORK_SITE__END*/
+.title_info,
+.list_tags,
+.project_gallery,
+.features{
+	margin-left: 3.5vw;
+}
