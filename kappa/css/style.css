@@ -386,6 +386,53 @@ main {
 	cursor: pointer;
 }
 
+#main_nav .active{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#18a3a1+0,31bcba+100 */
+	background: #18a3a1; /* Old browsers */
+	background: -moz-linear-gradient(top, #18a3a1 0%, #31bcba 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #18a3a1 0%,#31bcba 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #18a3a1 0%,#31bcba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18a3a1', endColorstr='#31bcba',GradientType=0 ); /* IE6-9 */
+}
+
+#info_box svg {
+	height: 0.88vw;
+	fill: #fff;
+	margin-right: 0.52vw;
+}
+
+#info_box {
+	position: fixed;
+	right: 0;
+	z-index: 5;
+	background-color: rgba(0,0,0,0.7);
+	padding: 1vw 3.85vw 1vw 0;
+	top: 4.68vw; 
+	color: #fff;
+	transform: translateX(100%);
+	transition: all 0.35s;
+}
+
+#info_box.open{
+	transform: translateX(0%);
+	transition: all 0.35s;
+}
+
+
+#info_box li{
+	list-style: none;
+	font-size: 0.83vmax;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	align-content: center;
+	line-height: 0.78vmax;
+	margin-bottom: 1vw;
+}
+
+#info_box li:last-of-type{
+	margin-bottom: 0;
+}
 /*MAIN END*/
 
 /*HEADER END*/
