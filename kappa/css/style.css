@@ -495,7 +495,8 @@ main {
 .features_title,
 .related_title,
 .info_about_box .about h1,
-.stuff_title{
+.stuff_title,
+.testimonals_info{
 	font-size: 1.25vw;
 	line-height: 1.35vw;
 	color: #000;
@@ -538,7 +539,9 @@ main {
 
 .pr_info,
 .tags,
-.our{
+.our,
+.testimonals,
+.service{
 	margin-bottom: 2vw;
 
 }
@@ -627,7 +630,6 @@ main {
 }
 
 /*WORK_SITE__END*/
-.title_info,
 .list_tags,
 .project_gallery,
 .features{
@@ -705,10 +707,13 @@ main {
 
 }
 
+.our ul{
+	padding-left: 0;
+}
+
 .our li{
 	list-style: none;
 	display: block;
-	
 	font-size: 0.78vw;
 	color: #727272;
 
@@ -730,5 +735,51 @@ main {
 }
 
 
+.testimonals .huw {
+	width: 100%;
+	height: 4.16vw;
+	background-color: #1ab5b3;
+	color: #fff;
+}
+
+.testimonals .huw h3{
+	font-style: italic;
+	font-size: 0.78vw;
+	font-weight: 400;
+	margin-left: 1.56vw;
+}
+
+.testimonals .huw img{
+	width: 4.16vw;
+	height: 4.16vw;
+}
+
+.testimonals_text{
+	padding: 1.56vw;
+	border: 1px solid #ececec;
+	color: #a3a3a3;
+	font-size: 0.93vw;
+	line-height: 1.56vw;
+}
+
+.service ul{
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.service li{
+	font-size: 0.72vw;
+	color: #848484;
+	margin-bottom: 1vw;
+
+}
+
 
 /*ABOUT_SITE_END*/
+
+
+/*BLOG_SITE_BEGIN*/
+
+
+
+/*BLOG_SITE_END*/
