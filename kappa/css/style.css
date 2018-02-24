@@ -780,109 +780,78 @@ main {
 
 /*BLOG_SITE_BEGIN*/
 
-.box_post{
-	width: 15.31vw;
-	height: auto;
-	margin-bottom: 1.3vw;
-	background-color: #fff;
-	overflow: hidden;
-	color: #9c9c9c;
-	font-size: 0.67vw;
-	line-height: 1.14vw;
+#comments{
+	padding-top: 1.6vw;
+	padding-bottom: 1.6vw;
+	border-bottom: 1px solid #e5e5e5;
 }
 
-.img_post{
-	width: 100%;
-	overflow: hidden;
-}
-
-.img_post img{
-	height: 100%;
-}
-
-.img_post_h1 {
-	height: 12vw;  /*230px*/
-}
-
-.img_post_h2 {
-	height: 13.6vw; /*262px*/
-}
-
-.img_post_h3 {
-	height: 9.58vw; /*184px*/
-}
-
-.img_post_h4 {
-	height: 7.34vw; /*141px*/
-}
-
-.img_post_h5 {
-	height: 19vw; /*316px*/
-}
-
-.img_post_h6 {
-	height: 8.75vw; /*168px*/
-}
-
-.img_post_h7 {
-	height: 13.8vw; /*265px*/
-}
-
-.about_post{
-	padding: 1vw;
-	border-bottom: 1px solid #e3e3e3;
-}
-
-.about_post h2 {
-	color: #323232;
-	font-size: 0.93vw;
-	margin-bottom: 0.78vw;
+#comments h4{
+	font-size: 1.25vmax;
 	font-weight: 400;
+	margin-bottom: 1.14vw;
 }
 
-.info_post{
-	padding: 1vw;
-}
-
-.info_post svg{
-	height: 0.83vw;
-	fill: #9c9c9c;
-	margin-right: 0.5vw;
-}
-
-.com_post{
-	margin-right: 1vw;
-}
-
-.singl_link a{
+#list_comments ul{
+	list-style: none;
+	padding: 0;	
 	position: relative;
-	width: 100%;
-	height: inherit;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
-.singl_link a svg{
-	position: absolute;
-	fill: #fff;
-	width: 3vw;
-	height: 3vw;
-	top: calc(50% - 1.5vw);
-	left: calc(50% - 1.5vw);
-	z-index: 1;
-	opacity: 0;
+#list_comments li{
+	margin-bottom: 1.66vw;
 }
 
-.singl_link a:hover svg{
-	opacity: 1;
-}
-
-.singl_link a img{
-	position: relative;
-	z-index: 0;
+.img_comment img{
 	height: 100%;
 }
 
+.img_comment{
+	widows: 4.16vw;
+	height: 4.16vw;
+	overflow: hidden;
+	text-align: center;
+	margin-right: 1.14vw;
+}
+
+.about_comment h5{
+	font-size: 0.72vw;
+	color: #3c3c3c;
+	margin: 0;
+	border-bottom: 1px solid #e5e5e5;
+	font-weight: 400;
+	padding-bottom: 0.5vw;
+}
+
+.about_comment h5 span{
+	color: #d1d1d1;
+}
+
+.about_comment p{
+	margin:0;
+	color: #a3a3a3;
+	font-size: 0.93vw;
+	margin-top: 0.83vw;
+}
+
+#list_comments ul ul{
+	margin-left: 2vw;
+	padding-left: 2vw;
+
+}
+
+#list_comments ul ul:before{
+	content: '';
+	display: block;
+	background-image: url('../img/border.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	left: -1vw;
+
+}
 
 /*BLOG_SITE_END*/
