@@ -152,6 +152,7 @@ body{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", 
 	"Trebuchet MS", Veranda, "sans-serif";
 	background-color: #b4b7b8;
+	margin: 0;
 }
 
 /*BODY END*/
@@ -921,6 +922,29 @@ main {
 
 .tags_blog {
 	margin-left: 0;
+}
+
+#box_contact {
+	width: 40.72vw;
+	padding: 1.56vw;
+}
+
+#info_contact{
+	color: #a3a3a3;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 1.6vw;
+	margin-bottom: 1.6vw;
+}
+
+#map{
+	background-image: url(../img/map.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#map .wrap {
+	margin: 0;
 }
 
 /*BLOG_SITE_END*/
