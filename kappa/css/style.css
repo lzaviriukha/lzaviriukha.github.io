@@ -323,8 +323,8 @@ main {
 }
 
 .work_box img{
-	width: calc(100% + 5vw;);
-	height: auto;
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	z-index: 1;
 }
@@ -772,7 +772,11 @@ main {
 	font-size: 0.72vw;
 	color: #848484;
 	margin-bottom: 1vw;
+}
 
+.img_box_about img{
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -927,6 +931,9 @@ main {
 #box_contact {
 	width: 40.72vw;
 	padding: 1.56vw;
+	position: relative;
+	z-index: 2;
+
 }
 
 #info_contact{
@@ -941,10 +948,20 @@ main {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
 }
 
 #map .wrap {
 	margin: 0;
+}
+
+#map_google{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
 }
 
 /*BLOG_SITE_END*/
