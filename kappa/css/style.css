@@ -519,6 +519,10 @@ main {
 	margin-bottom: 0;
 }
 
+.pr_info ul{
+	padding-left: 0;
+}
+
 .pr_info li{
 	list-style: none;
 	display: flex;
@@ -631,11 +635,10 @@ main {
 }
 
 /*WORK_SITE__END*/
-.list_tags,
-.project_gallery,
-.features{
+/*.list_tags,
+.project_gallery{
 	margin-left: 3.5vw;
-}
+}*/
 
 /*ABOUT_SITE*/
 
@@ -809,10 +812,11 @@ main {
 
 .img_comment img{
 	height: 100%;
+    width: 100%;
 }
 
 .img_comment{
-	widows: 4.16vw;
+	width: 4.16vw;
 	height: 4.16vw;
 	overflow: hidden;
 	text-align: center;
@@ -840,24 +844,11 @@ main {
 }
 
 #list_comments ul ul{
-	margin-left: 2vw;
+	margin-left: 8vw;
 	padding-left: 2vw;
 
 }
 
-#list_comments ul ul:before{
-	content: '';
-	display: block;
-	background-image: url('../img/border.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 2vw;
-	height: 2vw;
-	position: absolute;
-	left: -1vw;
-
-}
 
 #left_form{
 	width: 50%;
@@ -965,3 +956,283 @@ main {
 }
 
 /*BLOG_SITE_END*/
+
+
+#menu_btn {
+	display: none;
+}
+
+/*ADAPTIVE*/
+
+@media
+only screen  and ( min-device-width: 320px ) and ( max-device-width: 480px ),
+only screen and ( max-width: 320px ),
+
+
+{
+	header {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+
+	#logo{
+		height: 30vw;
+	}
+
+	#logo_img {
+		width: 35vw;
+		height: 8.6vh;
+	}
+
+	#main_nav a{
+		justify-content: center;
+		font-size: 2.5vmax;
+		height: 6.22vmax;
+	}
+
+	#main_nav,
+	#filter,
+	#soc_bar,
+	#cop {
+		display: none;
+	}
+
+	#main_nav.open{
+		display: block;
+	}
+
+	#menu_btn {
+		display: block;
+		font-size: 5vw;
+		color: #fff;
+		padding: 3vw;
+		width: 100%;
+		background-color: #242b2e;
+	}
+
+	main {
+		padding-left: 0;
+	}
+
+	.work_box{
+		height: 50vw;
+		width: 50%;
+		max-width: 50vw;
+	}
+
+	.work_box img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.info_work_box .left_info, .info_work_box .right_info, .info_about_box .left_info, .info_about_box .right_info {
+		width: 100%;
+	}
+
+	.info_work_box .left_info .img_box_work{
+		height: 45.16vw;
+	}
+
+	.info_work_box .left_info .about_work, .info_about_box .about{
+		font-size: 3vw;
+		line-height: 6vw;
+		margin-top: 3vw;
+		margin-bottom: 3vw;
+	}
+
+	.info_work_box .left_info .about_work h1, .title_info, .project_title, .features_title, .related_title, .info_about_box .about h1, .stuff_title, .testimonals_info{
+		font-size: 4.25vw;
+		line-height: 6.35vw;
+		margin-bottom: 3vw;
+	}
+
+	.related_box, .stuff_box {
+		width: 31.5vw;
+		height: 25.47vw;
+	}
+
+	.right_info{
+		margin-top: 3vw;
+	}
+
+	.right_info ul{
+		padding-left: 0;
+	}
+
+	.pr_info li{
+		font-size: 4vw;
+		line-height: 6vw;
+	}
+
+	.pr_info li img {
+		margin-right: 2.67vw;
+		height: 10vw;
+		width: 10vw;
+	}
+
+	.tag {
+		font-size: 4.8vw;
+		padding: 3.73vw 6vw;
+		margin-right: 2.52vw;
+		margin-bottom: 3.45vw;
+	}
+
+	.project_box {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	.features li{
+		font-size: 4vw;
+	}
+
+	.left_info .img_box_about{
+		height: 50.72vw;
+	}
+
+	.stuff{
+		display: none;
+	}
+
+	.our li {
+		font-size: 4vw;
+	}
+
+	.prog {
+		height: 7.77vw;
+	}
+
+	.testimonals .huw {
+		height: 10vw;
+	}
+
+	.testimonals .huw img {
+		width: 11vw;
+		height: 10vw;
+	}
+
+	.testimonals .huw h3 {
+		font-size: 4vw;
+		margin-left: 4.56vw;
+	}
+
+	.testimonals_text {
+		font-size: 4vw;
+		line-height: 6vw;
+	}
+
+	.service li {
+		font-size: 1.72vw;
+	}
+
+	#box_contact {
+		width: 100%;
+	}
+
+	#form_comment form{
+		flex-direction: column;
+	}
+
+	#left_form,
+	#right_form{
+		width: 100%;
+		padding: 0;
+	}
+
+	.input input, .input textarea{
+		min-height: 10vw;
+		font-size: 1.72vmax;
+	}
+
+	.icon_form {
+		height: 10vw;
+		width: 10vw;
+	}
+
+	.icon_form img {
+		width: 10vw;
+		height: 10vw;
+	}
+
+	#right_form button {
+		font-size: 5vw;
+		height: 10vw;
+	}
+
+	#right_form .input textarea {
+		height: 50vw;
+	}
+
+	#list_comments li {
+		margin-bottom: 3vw;
+	}
+
+	.img_comment {
+		width: 10vw;
+		height: 10vw;
+	}
+
+	.img_comment img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.about_comment h5 {
+		font-size: 3.72vw;
+	}
+
+	.about_comment p {
+		font-size: 2.93vw;
+	}
+
+	#list_comments ul ul {
+		margin-left: 14vw;
+		padding-left: 3vw;
+	}
+
+	#info{
+		width: 10vw;
+		height: 10vw;
+	}
+
+	#info_box{
+		top: 10vw;
+	}
+
+	#info_box ul {
+		padding: 3vw 3vw;
+	}
+
+	#info_box li {
+		font-size: 3vmax;
+		margin-bottom: 8vw;
+	}
+
+	#info_box svg {
+    height: 6.88vw;
+    margin-right: 4.52vw;
+}
+
+.arrow {
+    width: 10vw;
+    height: 10vw;
+}
+
+.work_box h2 {
+    font-size: 5.2vw;
+    margin-bottom: -2.8vw;
+}
+
+.work_box h3 {
+    font-size: 4.62vw;
+}
+
+.work_box h3:after {
+    content: '';
+    width: 78%;
+    height: 6px;
+    margin-top: 3vw;
+}
+
+}

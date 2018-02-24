@@ -11,4 +11,8 @@ $(function(){
 		$(this).css('width', width + '%');
 	});
 
+		$('#menu_btn').click( function() {
+		$('#main_nav').toggleClass('open');
+	} );
+
 });
